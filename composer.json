@@ -48,7 +48,7 @@
         "symfony/polyfill-php80": "^1.32"
     },
     "require-dev": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.1",
         "phpcompatibility/php-compatibility": "^9.3",
         "phpstan/phpstan-phpunit": "^2.0",
 		"phpstan/phpstan-strict-rules": "^2.0",
