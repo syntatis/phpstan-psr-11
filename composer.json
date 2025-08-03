@@ -1,0 +1,68 @@
+{
+	"name": "syntatis/phpstan-psr-11",
+	"description": "PHPStan dynamic return type extension for PSR-11",
+	"type": "phpstan-extension",
+	"keywords": [
+		"dev",
+		"psr-11",
+		"service-provider",
+		"phpstan",
+		"static"
+	],
+	"authors": [
+		{
+			"name": "Thoriq Firdaus",
+			"role": "Developer",
+			"homepage": "https://github.com/tfirdaus"
+		}
+	],
+	"license": "MIT",
+	"extra": {
+		"phpstan": {
+			"includes": [
+				"extension.neon"
+			]
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Syntatis\\PHPStan\\Psr11\\": "app/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests"
+		]
+	},
+	"require": {
+		"php": "^7.4 || ^8.0",
+		"psr/container": "^2.0",
+		"phpstan/phpstan": "^2.1",
+		"symfony/polyfill-php80": "^1.32"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.1",
+		"phpcompatibility/php-compatibility": "^9.3",
+		"phpstan/phpstan-phpunit": "^2.0",
+		"phpstan/phpstan-strict-rules": "^2.0",
+		"phpunit/phpunit": "^9.6",
+		"squizlabs/php_codesniffer": "^3.13",
+		"symfony/var-dumper": "^5.4",
+		"syntatis/coding-standard": "^2.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"sort-packages": true
+	},
+	"scripts": {
+		"analyze": "phpstan",
+		"format": "phpcbf",
+		"lint": "phpcs",
+		"test": "phpunit"
+	},
+	"non-feature-branches": [
+		"dependabot/*"
+	]
+}

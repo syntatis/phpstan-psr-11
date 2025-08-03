@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"SanderRonde.phpstan-vscode",
+		"bmewburn.vscode-intelephense-client",
+		"christian-kohler.path-intellisense",
+		"editorConfig.editorConfig",
+		"ms-vscode-remote.remote-containers",
+		"neilbrayfield.php-docblocker",
+		"valeryanm.vscode-phpsab",
+	]
+}

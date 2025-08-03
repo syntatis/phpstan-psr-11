@@ -1,0 +1,3 @@
+parameters:
+  syntatis:
+    psr-11: Acme\Psr\Container\ContainerInterface
