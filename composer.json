@@ -64,5 +64,9 @@
 	},
 	"non-feature-branches": [
 		"dependabot/*"
-	]
+	],
+	"conflict": {
+		"bnf/phpstan-psr-container": "*",
+		"phil-nelson/phpstan-container-extension": "*"
+	}
 }
