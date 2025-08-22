@@ -38,7 +38,7 @@
 		"php": "^7.4 || ^8.0",
 		"psr/container": "^2.0",
 		"phpstan/phpstan": "^2.1",
-		"symfony/polyfill-php80": "^1.32"
+		"symfony/polyfill-php80": "^1.33"
 	},
 	"require-dev": {
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.1",
